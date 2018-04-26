@@ -1,4 +1,4 @@
-#include "swap_int.h"
+void swap_int(int*, int*);
 
 void selection_sort(int *input, int length){
   for (int i = 0; i < length; ++i) {
