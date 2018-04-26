@@ -7,6 +7,7 @@
 #include "shell_sort.h"
 #include "merge_sort.h"
 #include "quick_sort.h"
+#include "heap_sort.h"
 #include "int_array_utils.h"
 
 void test_sort(void(*)(int*, int));
@@ -25,6 +26,8 @@ int main(int argc, char *argv[])
   test_sort(merge_sort);
   printf("quick sort\n");
   test_sort(quick_sort);
+  printf("heap sort\n");
+  test_sort(heap_sort);
 
   return 0;
 }
