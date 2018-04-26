@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
 }
 
 void test_sort(void (*sort)(int*, int)){
-  int large_number = 2000;
+  int large_number = 20000;
   int *big = malloc(sizeof(int) * large_number);
   if(!big){
     printf("Could not get large array");
